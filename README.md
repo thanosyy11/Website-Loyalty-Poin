@@ -19,6 +19,22 @@ Sistem manajemen loyalitas pelanggan berbasis web yang dirancang untuk toko reta
 
 Jika Anda ingin menjalankan proyek ini di komputer Anda sendiri, ikuti langkah berikut:
 
-1. **Clone Repository**
+Clone Repository
    ```bash
    git clone [https://github.com/username-anda/loyalty-bolu-kukus.git](https://github.com/username-anda/loyalty-bolu-kukus.git)
+
+Setup Database (Supabase)
+
+Buat project baru di Supabase.
+
+Buat tabel profiles (untuk user data) dan transactions (untuk riwayat poin).
+
+Dapatkan SUPABASE_URL dan SUPABASE_ANON_KEY.
+
+Konfigurasi Environment
+
+Buat file .env atau masukkan kredensial Supabase langsung ke dalam file konfigurasi JS Anda (jika client-side only).
+
+Jalankan Aplikasi
+
+Buka file index.html di browser Anda, atau gunakan Live Server.
