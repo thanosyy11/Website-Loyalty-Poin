@@ -1,40 +1,36 @@
-# 🍰 Loyalty Point System - Toko Bolu Kukus
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Sistem manajemen loyalitas pelanggan berbasis web yang dirancang untuk toko retail (UMKM). Aplikasi ini memungkinkan kasir untuk memberikan poin berdasarkan nominal belanja, dan pelanggan untuk menukarkan poin dengan hadiah.
+## Getting Started
 
-## 🚀 Fitur Utama
+First, run the development server:
 
-- **Role-Based Access:** Pemisahan antarmuka antara Admin/Kasir dan Member/Pelanggan.
-- **Real-time Point Tracking:** Poin terupdate otomatis setelah transaksi.
-- **Mobile Friendly:** Desain responsif untuk diakses via smartphone pelanggan.
-- **Secure Authentication:** Login aman menggunakan nomor HP (via Supabase Auth).
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## 🛠️ Teknologi yang Digunakan
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- **Frontend:** HTML, CSS, JavaScript (Vanilla/Framework)
-- **Backend/Database:** Supabase (PostgreSQL)
-- **Deployment:** Vercel
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 📦 Cara Instalasi & Penggunaan (Local Development)
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Jika Anda ingin menjalankan proyek ini di komputer Anda sendiri, ikuti langkah berikut:
+## Learn More
 
-Clone Repository
-   ```bash
-   git clone [https://github.com/username-anda/loyalty-bolu-kukus.git](https://github.com/username-anda/loyalty-bolu-kukus.git)
+To learn more about Next.js, take a look at the following resources:
 
-Setup Database (Supabase)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Buat project baru di Supabase.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Buat tabel profiles (untuk user data) dan transactions (untuk riwayat poin).
+## Deploy on Vercel
 
-Dapatkan SUPABASE_URL dan SUPABASE_ANON_KEY.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Konfigurasi Environment
-
-Buat file .env atau masukkan kredensial Supabase langsung ke dalam file konfigurasi JS Anda (jika client-side only).
-
-Jalankan Aplikasi
-
-Buka file index.html di browser Anda, atau gunakan Live Server.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
